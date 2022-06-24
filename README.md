@@ -1,35 +1,51 @@
-# wonderland-clojure-katas
+# wonderland-dotnet-katas
 
-These are a collection of Clojure
+These are a collection of .NET (C#/F#)
 [katas](http://en.wikipedia.org/wiki/Kata_%28programming%29) inspired by
 [Lewis Carroll](http://en.wikipedia.org/wiki/Lewis_Carroll) and _Alice
 in Wonderland_.
+
+Originally created as Clojure katas:
+[gigasquid/wonderland-clojure-katas](https://github.com/gigasquid/wonderland-clojure-katas)
+
+Initially ported as F# katas:
+[mathias-brandewinder/wonderland-fsharp-katas](https://github.com/mathias-brandewinder/wonderland-fsharp-katas)
 
 ![Alice and the tiny door](./images/alicedoor.gif)
 
 >“Curiouser and curiouser!” 
 >-- ― Lewis Carroll, Alice in Wonderland
 
+## Install pre-requisites
+
+You'll need to install [.NET 6.0 SDK](https://dotnet.microsoft.com/download/dotnet/6.0) as a pre-requisite in order to do the katas.
+
+[Visual Studio Code](https://code.visualstudio.com) with the [Ionide](https://ionide.io/) extension is recommended. Other .NET coding environments (JetBrains Rider, Visual Studio, etc.) should work, but have not been tested. YMMV
+
 ## How to Do the Katas
 
-First, clone or fork this repo. Each of the katas are in their own
-directory and are self contained Clojure projects.  You `cd`
-into the project and run `clj -X:test` to show the failing tests, then
+First, clone, fork or degit this repo. Each of the katas are in their own
+directory and are self contained C# and F# projects.  You `cd`
+into the project and run `dotnet test` to show the failing tests, then
 complete the code to make the tests pass. Each project has the
 instructions in its own _README.md_ file.
 
-For example, to get started on the _alphabet-cipher_ kata first.
+For example, to get started on the F# _alphabet-cipher_ kata first.
 
-1. Clone or Fork this repo
-2. cd `alphabet-cipher`
-3. run `clj -X:test`
-4. Check out the alphabet cipher instructions in the _README.md_.
-5. Add the code in the source files to make the tests pass.
-
+1. Clone, Fork or [degit](https://github.com/Rich-Harris/degit) this repo:
+    * `npx degit rastreus/wonderland-dotnet-katas`
+2. run `dotnet tool restore`
+3. run `dotnet paket restore`
+4. run `dotnet paket install`
+5. cd `fsharp/alphabet-cipher/test`
+6. run `dotnet test`
+7. Check out the alphabet cipher instructions in its _README.md_ file.
+8. Add code to the source file in `alphabet-cipher/src` to make the tests pass.
 
 ## License
 
-Copyright © 2014 Carin Meier
+Copyright © 2022 Russell Dillin, [MIT License](LICENSE).
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Copyright © 2015 Mathias Brandewinder, MIT License
+
+Copyright © 2014 Carin Meier, Eclipse Public License 1.0

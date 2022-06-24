@@ -1,0 +1,10 @@
+version 7.1.5
+
+source https://api.nuget.org/v3/index.json
+framework: net6.0
+storage: none
+
+nuget FSharp.Core ~> 6
+nuget Microsoft.NET.Test.Sdk ~> 17
+nuget YoloDev.Expecto.TestSdk
+nuget Expecto ~> 9
