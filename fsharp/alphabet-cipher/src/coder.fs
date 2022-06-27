@@ -2,14 +2,11 @@
 
 module coder =
 
-    type Message = string
-    type Keyword = string
-
-    let encode (key : Keyword) (message : Message) : Message =
+    let encode (key : string) (message : string) : string =
         "encodeme"
 
-    let decode (key : Keyword) (message : Message) : Message =
+    let decode (key : string) (message : string) : string =
         "decodeme"
 
-    let decipher (cipher : Message) (message : Message) : Keyword =
+    let decipher (cipher : string) (message : string) : string =
         "decypherme"

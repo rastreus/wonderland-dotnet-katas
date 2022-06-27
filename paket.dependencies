@@ -1,10 +1,36 @@
 version 7.1.5
 
-source https://api.nuget.org/v3/index.json
-framework: net6.0
-storage: none
+group FSharp
+    source https://api.nuget.org/v3/index.json
+    framework: net6.0
+    storage: none
 
-nuget FSharp.Core ~> 6
-nuget Microsoft.NET.Test.Sdk ~> 17
-nuget YoloDev.Expecto.TestSdk
-nuget Expecto ~> 9
+    nuget FSharp.Core ~> 6
+
+group FSharpTest
+    source https://api.nuget.org/v3/index.json
+    framework: net6.0
+    storage: none
+
+    nuget FSharp.Core ~> 6
+    nuget Microsoft.NET.Test.Sdk ~> 17
+    nuget YoloDev.Expecto.TestSdk
+    nuget Expecto ~> 9
+
+group CSharp
+    source https://api.nuget.org/v3/index.json
+    framework: net6.0
+    storage: none
+
+    nuget Microsoft.CSharp ~> 4
+
+group CSharpTest
+    source https://api.nuget.org/v3/index.json
+    framework: net6.0
+    storage: none
+
+    nuget Microsoft.CSharp ~> 4
+    nuget Microsoft.NET.Test.Sdk ~> 17
+    nuget xunit ~> 2
+    nuget xunit.runner.visualstudio ~> 2
+    nuget coverlet.collector ~> 3
