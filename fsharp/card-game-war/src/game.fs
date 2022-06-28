@@ -17,7 +17,10 @@ module game =
         | King
         | Ace
 
-    type Card = Suit * Rank
+    type Card =
+        { Suit : Suit; Rank : Rank }
+        static member Create(suit : Suit, rank : Rank) =
+            { Suit = suit; Rank = rank }
 
     (*
     let suits = [ Spade; Club; Diamond; Heart ]
@@ -28,9 +31,11 @@ module game =
             for head in heads -> head
         ]
 
-    let deck = seq {
-        for suit in suits do
-            for rank in ranks -> suit,rank }
+    let deck =
+        seq {
+            for suit in suits do
+                for rank in ranks -> Card.Create(suit, rank)
+        }
     *)
 
     let playRound (player1_card : Card) (player2_card : Card) =
