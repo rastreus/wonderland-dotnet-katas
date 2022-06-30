@@ -41,7 +41,7 @@ let tests =
             let mid_moves = boat_positions
             let rht_moves = right_bank
 
-            let validate_move (step1 : Puzzle list) (step2 : Puzzle list) =
+            let validate_move (step1 : P list) (step2 : P list) =
                 let diff1 =
                     step1
                     |> List.filter (fun n -> not (step2 |> List.contains n))

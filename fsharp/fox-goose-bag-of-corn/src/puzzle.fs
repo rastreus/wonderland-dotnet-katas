@@ -3,7 +3,7 @@
 module puzzle =
 
     [<AutoOpen>]
-    type Puzzle =
+    type P =
         | Fox
         | Goose
         | Corn
