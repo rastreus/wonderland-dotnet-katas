@@ -40,7 +40,7 @@ For example, to get started on the F# _alphabet-cipher_ kata first.
 5. cd `fsharp/alphabet-cipher/test`
 6. run `dotnet test`
 7. Check out the alphabet cipher instructions in its _README.md_ file.
-8. Add code to the source file in `alphabet-cipher/src` to make the tests pass.
+8. Add code to the source file in `fsharp/alphabet-cipher/src` to make the tests pass.
 
 ## License
 
