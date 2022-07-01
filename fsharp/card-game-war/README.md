@@ -22,7 +22,7 @@ If you are stuck, you might want to sneak a peak at this [sample scenario](sampl
 ## Instructions
 
 - Clone, fork or degit this repo
-- `cd card-game-war`
+- `cd fsharp/card-game-war/test`
 - Run the tests with `dotnet test`
 - In this kata, you will be prompted to fill in your own tests.
 - Make the tests pass!

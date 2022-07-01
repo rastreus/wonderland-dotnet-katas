@@ -57,7 +57,7 @@ bread
 ## Instructions
 
 - Clone, fork or degit this repo
-- `cd doublets`
+- `cd csharp/doublets/test`
 - Run the tests with `dotnet test`
 - Make the tests pass!
 

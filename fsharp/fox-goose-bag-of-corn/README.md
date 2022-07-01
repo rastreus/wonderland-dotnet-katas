@@ -42,7 +42,7 @@ The goal is to have the plan in steps so that all make it safely to the other si
 ## Instructions
 
 - Clone, fork or degit this repo
-- `cd fox-goose-bag-of-corn`
+- `cd fsharp/fox-goose-bag-of-corn/test`
 - Run the tests with `dotnet test`
 - Make the tests pass!
 

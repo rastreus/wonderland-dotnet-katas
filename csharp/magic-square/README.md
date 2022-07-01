@@ -30,7 +30,7 @@ You need to arrange them in a 3 x 3 matrix so that:
 ## Instructions
 
 - Clone, fork or degit this repo
-- `cd fsharp/magic-square/test`
+- `cd csharp/magic-square/test`
 - Run the tests with `dotnet test`
 - Make the tests pass!
 

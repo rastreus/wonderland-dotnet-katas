@@ -33,7 +33,7 @@ _X_ in the start, the path, and the end of the maze, like this.
 ## Instructions
 
 - Clone, fork or degit this repo
-- `cd fsharp/tiny-maze/test`
+- `cd csharp/tiny-maze/test`
 - Run the tests with `dotnet test`
 - Make the tests pass!
 

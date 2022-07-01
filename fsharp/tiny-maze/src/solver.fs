@@ -3,11 +3,11 @@
 module solver =
 
     [<AutoOpen>]
-    type Maze =
+    type P =
         | S
         | E
         | V of int
         | X
 
-    let solve_maze (maze : List<Maze list>) : List<Maze list> =
+    let solve_maze (maze : List<P list>) : List<P list> =
         List.empty

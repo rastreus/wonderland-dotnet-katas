@@ -71,7 +71,7 @@ To decode, the person would use the secret keyword and do the opposite.
 ## Instructions
 
 - Clone, fork or degit this repo
-- `cd alphabet-cipher`
+- `cd fsharp/alphabet-cipher/test`
 - Run the tests with `dotnet test`
 - Make the tests pass!
 

@@ -18,7 +18,7 @@ You must find a way to generate this wonderland number.
 ## Instructions
 
 - Clone, fork or degit this repo
-- `cd fsharp/wonderland-number/test`
+- `cd csharp/wonderland-number/test`
 - Run the tests with `dotnet test`
 - Make the tests pass!
 
